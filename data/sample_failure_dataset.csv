@@ -1,0 +1,7 @@
+failure_id,error_message,stack_trace,failed_test,root_cause_label,confidence,healable,healing_action,repo_owner,repo_name,suspected_file,related_test_file
+F001,"NameError: name 'total_amunt' is not defined","app/calculator.py line 17","tests/test_calculator.py::test_calculate_total",application_defect,0.92,yes,code_patch,YOUR_USERNAME,self-healing-mcp-demo,app/calculator.py,tests/test_calculator.py
+F002,"SyntaxError: invalid syntax","app/calculator.py line 8","tests/test_calculator.py",application_defect,0.95,yes,code_patch,YOUR_USERNAME,self-healing-mcp-demo,app/calculator.py,tests/test_calculator.py
+F003,"ImportError: cannot import name 'calculate_total' from app.calculator","tests/test_calculator.py line 3","tests/test_calculator.py",application_defect,0.88,yes,code_patch,YOUR_USERNAME,self-healing-mcp-demo,app/calculator.py,tests/test_calculator.py
+F004,"AssertionError: assert 180 == 190","tests/test_calculator.py line 28","tests/test_calculator.py::test_apply_discount",test_script_issue,0.84,yes,test_patch,YOUR_USERNAME,self-healing-mcp-demo,tests/test_calculator.py,tests/test_calculator.py
+F005,"ConnectionTimeout: request timed out after 30 seconds","external service call","tests/test_external_api.py::test_fetch_data",network_issue,0.90,no,retry_or_manual_review,YOUR_USERNAME,self-healing-mcp-demo,N/A,N/A
+F006,"KeyError: SECRET_KEY","app/config.py line 5","tests/test_config.py::test_load_secret_key",environment_issue,0.86,no,config_review,YOUR_USERNAME,self-healing-mcp-demo,N/A,N/A
