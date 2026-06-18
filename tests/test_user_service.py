@@ -3,7 +3,7 @@ import pytest
 from app.user_service import create_user, deactivate_user, get_user_display_name
 
 
-def test_create_user():
+def test_create_user(sample_user):
     user = create_user(1, "Charith", "charith@example.com")
 
     assert user["id"] == 1
