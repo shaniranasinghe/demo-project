@@ -8,7 +8,7 @@ def subtract_numbers(a, b):
     return a - b
 
 
-def calculate_total(price, quantity:
+def calculate_total(price, quantity):
     """Calculate total amount using price and quantity."""
     if price < 0 or quantity < 0:
         raise ValueError("Price and quantity must be positive")
