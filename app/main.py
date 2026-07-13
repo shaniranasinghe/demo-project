@@ -21,4 +21,4 @@ def run_demo():
 
 
 if __name__ == "__main__":
-    print(run_demo()
+    print(run_demo())
