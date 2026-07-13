@@ -7,7 +7,7 @@ def create_user(user_id, name, email):
         raise ValueError("Name is required")
 
     if "@" not in email:
-        raise ValueError("Invalid email address"
+        raise ValueError("Invalid email address")
 
     return {
         "id": user_id,

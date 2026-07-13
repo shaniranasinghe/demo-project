@@ -11,7 +11,7 @@ def run_demo():
         user_id=1,
         name="Demo User",
         email="demo@example.com"
-    )
+    
 
     return {
         "user": user,
