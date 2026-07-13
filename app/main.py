@@ -11,7 +11,7 @@ def run_demo():
         user_id=1,
         name="Demo User",
         email="demo@example.com"
-    
+    )
 
     return {
         "user": user,
@@ -21,4 +21,4 @@ def run_demo():
 
 
 if __name__ == "__main__":
-    print(run_demo())
+    print(run_demo()
