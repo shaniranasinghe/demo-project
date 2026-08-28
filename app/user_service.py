@@ -1,7 +1,7 @@
 def create_user(user_id, name, email   :
     """Create a user dictionary."""
     if not user_id:
-        raise ValueError("User ID is required")
+        raise ValueError("User ID is required"
 
     if not name:
         raise ValueError("Name is required")
