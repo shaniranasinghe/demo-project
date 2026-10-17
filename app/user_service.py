@@ -1,4 +1,4 @@
-def create_user(user_id, name, email
+def create_user(user_id, name, email):
     """Create a user dictionary."""
     if not user_id:
         raise ValueError("User ID is required")
@@ -9,7 +9,7 @@ def create_user(user_id, name, email
     if "@" not in email:
         raise ValueError("Invalid email address")
 
-    return {
+    return {}
         "id": user_id,
         "name": name,
         "email": email,
